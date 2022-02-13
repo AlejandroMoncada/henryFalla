@@ -1,0 +1,182 @@
+body{
+    margin: 0 auto;
+    background-color:rgb(0, 0, 0);
+    background-image: url("../images/63541398-claro-estudio-vector-oscuro-fondo-negro-para-la-presentación-del-producto.jpg");
+
+}
+.imagen_encabezado{
+    margin: 10px;
+    width: 400px;
+    height: 250px;
+}
+main{
+    width: 1000px; 
+    margin: 20px auto;
+    border: 2px solid rgb(12, 12, 12);
+    box-shadow: 3px 3px 3px #333;
+    border-radius: 10px;
+    background: #423f3a;
+}
+
+header{
+    text-align: center;
+}
+
+.canciones{
+    text-align: left;
+}
+
+p{
+    text-align: left;
+}
+
+.top-canciones{
+    margin: 10px;
+    width: 300px;
+    height: 250px;
+}
+
+nav{
+    height: 80px;   
+    background:  rgb(47, 47, 47);
+    margin: 20px;
+}
+
+nav ul{
+    width: 360px;
+    margin: 0 auto;
+}
+
+nav ul li{
+    display: inline;
+    list-style: none;   
+}
+
+nav ul li a{
+    background-color: rgb(71, 71, 71);
+    border-radius: 5px;
+    text-decoration: none;  
+    line-height: 80px;
+    color:black;
+    padding: 10px;
+    margin: 1px;
+    border-radius: 5px;
+    box-shadow:2px 2px 2px #333; 
+    font-weight: bold;
+    border: rgb(10, 10, 10) 1px solid;
+    list-style: none;
+  
+}
+
+nav ul li :hover{
+    background-color: #999BA1;
+    list-style: none;
+    border: gray 1px solid;
+    border-radius: 1rem;
+    padding: 11px 11px;
+}
+
+section{
+    text-align: center;
+
+}
+
+section img{
+    margin: 20px;
+    width: 500px;
+}
+
+.cancion{
+    float: left;
+}
+
+footer{
+    background-color: rgb(47, 47, 47);
+    text-align: center;
+    padding: 20px;
+}
+
+.canciones a{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+.canciones :hover{
+    color:wheat;
+}
+
+.clear{
+    clear: both;
+}
+
+form{
+    width: 500px;
+    height: 600px;
+    display:block;
+    text-align: center;
+    border: 3px #909090 solid ;
+    background-color: #909090;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-bottom: 20px ;
+    border-radius: 15px;
+}
+form input{
+    padding: 5px;
+    margin: 10px;
+    display:fixed;
+    border: none;
+    border-radius: 3px;
+    border-bottom: 1px #000000 solid;
+    box-shadow: 0px 2px 2px #000000;
+    background: #ffffff13;
+    
+}
+
+form input[type="button"]{
+    padding: 5px;
+    margin: 10px;
+    display:fixed;
+    border: none;
+    border-radius: 3px;
+    border-bottom: 1px #000000 solid;
+    box-shadow: 0px 2px 2px #000000;
+    background: #000000;
+    color: #ffffff;
+}
+form input[type="button"]:hover{
+    padding: 6px;
+    background: #ffffff13;
+    color: #000000;
+}
+select{
+    padding: 5px;
+    margin: 10px;
+    display:fixed;
+    border: none;
+    border-radius: 3px;
+    border-bottom: 1px #000000 solid;
+    box-shadow: 0px 2px 2px #000000;
+    background: #ffffff13;
+}
+h1{
+    text-align: center;
+}
+::-webkit-input-placeholder {
+    color: rgb(0, 0, 0);
+} 
+#mensaje{
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+    margin: 10px;
+    display:fixed;
+    border: none;
+    border-radius: 3px;
+    border-bottom: 1px #000000 solid;
+    box-shadow: 0px 2px 2px #000000;
+    background: #ffffff13;
+}
+
