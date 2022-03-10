@@ -1,0 +1,601 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  margin: 0;
+  background-color: #f4f4f4;
+}
+nav{
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  border-bottom: 5px solid #1293d4;
+  background: #24282b;
+}
+h2{
+  color: white;
+}
+a{
+  color: white;
+}
+footer{
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  margin-top: 25px;
+  border: none;
+  background-color: #1293d4;
+  color: white;
+}
+footer p{
+  padding: 25px;
+  margin: 0;
+}
+/* ---------CLASES index.html--------- */
+.letrasnav{
+  margin-left: 150px;
+  padding: 10px;
+}
+span{
+  color: #1293d4;
+}
+.letrasnav span{
+  flex-direction: row;
+  color: #1293d4;
+  width: 50%;
+}
+.navegacion{
+  display: flex;
+  margin-right: 150px;
+  padding: 10px;
+}
+.navegacion a{
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: center;
+  margin: 15px;
+}
+
+/* -------Body primera----- */
+.primera{
+  background-image: url(../images/cabecera.jpg);
+  background-position: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+}
+.letrasPrimera{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  color: white;
+}
+.letrasPrimera h1{
+  margin: 0;
+  text-align: center;
+  font-size:  4rem;
+}
+.letrasPrimera p{
+  text-align: center;
+  font-size: 1.2rem;
+}
+/* ------- Body Segunda ------- */
+.segunda{
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #24282b;
+
+}
+.segunda h3{
+  margin: 28px;
+  margin-left: 150px;
+  font-size: 1.5rem;
+  color: white;
+}
+.email{
+  margin: 28px;
+  margin-right: 150px;
+}
+input[type="email"]{
+  padding: 6px;
+  padding-right: 70px;
+}
+.segunda button{
+  font-size: 13px;
+  padding: 7px;
+  color: white;
+  background-color: #e8491d;
+  border: none;
+  cursor: pointer;
+}
+/* ------Body Tercera------ */
+.tercera{
+  display: flex;
+  justify-content: space-around;
+  min-height: 30.5vh;
+}
+.logos{
+  width: 27%;
+  text-align: center;
+}
+.logos h1{
+  font-size: 20px;
+}
+.logos p{
+  font-size: 15px;
+}
+.imgLogo{
+  width: 27%;
+  margin-top: 30px;
+}
+
+/* ------ FIN de las clases de Index.html -------- */
+
+/* ---------CLASES nosotros.html--------- */
+.bodyTodos{
+  display: flex;
+  justify-content: space-around;
+  min-height: 71.8vh;
+}
+.primeraNosotros{
+  width: 52%;
+  margin-left: 5%;
+}
+.imgNosotros{
+  width: 100%;
+}
+.pSegundo{
+  background-color:#35424a;
+  color: white;
+  padding: 15px;
+}
+.segundaNosotros{
+  width: 30%;
+}
+.aside{
+  background-color: #35424a;
+  color: white;
+  padding: 15px;
+  width: 60%;
+  margin: 5%;
+
+
+}
+/* ------ FIN de las clases de nosotros.html -------- */
+
+
+/* ---------CLASES servicios.html--------- */
+.tarjetas{
+  background-color: #e6e6e6;
+  color: black;
+  margin: 10px;
+  margin-left: 5% ;
+  padding: 20px;
+  border: 1px solid #80808070;
+}
+.segundaServicios{
+  width: 30%;
+  height: 30%;
+}
+.servicios{
+  width: 65%;
+}
+.servicios h1{
+  margin-left: 5% ;
+}
+.aside p{
+  margin: 0;
+}
+
+/* ------ FIN de las clases de servicios.html -------- */
+
+/* ---------CLASES contactos.html--------- */
+.asideContactos{
+  margin-top: 5%;
+  margin-bottom:  5%;
+  background-color: #35424a;
+  color: white;
+  padding: 15px;
+  width: 60%;
+}
+
+.formulario{
+  width: 60%;
+  margin-left: 5%;
+}
+form input{
+  width: 78.6%;
+  padding: 10px;
+  margin-bottom: 15px ;
+}
+form input[type="email"]{
+  width: 78.6%;
+  padding: 10px;
+}
+textarea{
+  width: 80%;
+  height: 10rem;
+}
+.contactoImg{
+  width: 66%;
+}
+.botonContactos{
+  width: 80%;
+  padding: 10px;
+  background-color: #e8491d;
+  border: 1px solid #808080;
+  color: white;
+}
+/* ------ FIN de las clases de contactos.html -------- */
+
+/* --------- MEDIA QUERY ----------- */
+@media (max-width: 1600px){
+  footer{
+    position: relative;
+  }
+  footer p{
+    padding: 25px;
+    margin: 0;
+  }
+}
+@media (max-width: 1100px){
+  /* --- navs par todoas las plantillas --- */
+  .letrasnav{
+    margin-left: 30px;
+  }
+  .navegacion{
+    margin: 0;;
+    margin-left: 10px;
+  }
+  /* ---- index.html ---- */
+  .segunda h3{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-left: 30px ;
+  }
+  .email{
+    margin-right: 30px ;
+  }
+  .imgLogo{
+    width: 40%;
+  }
+
+  /* --- Aside que hacemos --- */
+  .aside{
+    width: 80%;
+  }
+  /* --- aside contactos --- */
+  .asideContactos{
+    width: 80%;
+  }
+  .contactoImg{
+    width: 85%;
+  }
+}
+@media (max-width: 800px){
+  /* ----- Index.html ----- */
+  .letrasnav{
+    margin-left: 5px;
+  }
+  .navegacion{
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+  }
+  .navegacion a{
+    margin: 5px;
+  }
+  .letrasPrimera h1{
+    font-size: 3rem;
+  }
+  .segunda h3{
+    font-size: 1.1rem;
+  }
+  input[type="email"]{
+    padding-right: 30px;
+  }
+  /* ----- nosotros.html -------- */
+  .primeraNosotros{
+    width: 55%;
+    margin: 0;
+  }
+  .segundaNosotros{
+    width: 35%;
+}
+  /* --- Aside que hacemos --- */
+  .aside{
+    width: 80%;
+    margin-right:20px;
+  }
+
+  /* ------ Servicios.html ------ */
+  .servicios{
+    width: 55%;
+    margin: 0;
+  }
+  .segundaServicios{
+    width: 35%;
+  }
+  
+  /* ------- Contactos.html -------- */
+  .formulario{
+    width: 55%;
+    margin: 0;
+  }
+  /* --- aside contactos --- */
+  .asideContactos{
+    width: 90%;
+  }
+  .contactoImg{
+    width: 100%;
+  }
+}
+@media (max-width: 620px){
+   /* ----- Index.html ----- */
+   .letrasnav h2{
+     margin: 0;
+   }
+   .navegacion{
+     padding: 0;
+     margin: 0;
+   }
+   .letrasPrimera h1{
+    font-size: 3rem;
+  }
+  .segunda h3{
+    text-align: center;
+    margin-left: 15px;
+  }
+  input[type="email"]{
+    padding-right: 1px;
+  }
+  /* ----- nosotros.html -------- */
+  .primeraNosotros{
+    width: 50%;
+    margin: 0;
+  }
+  .segundaNosotros{
+    width: 40%;
+  }
+  .imgNosotros{
+    width: 190%;
+  }
+  /* --- Aside que hacemos --- */
+  .aside{
+    width: 80%;
+    margin-right:20px;
+  }
+
+  /* ------ Servicios.html ------ */
+  .servicios{
+    width: 50%;
+    margin: 0;
+  }
+  .segundaServicios{
+    width: 40%;
+  }
+  /* ------- Contactos.html -------- */
+  .formulario{
+    width: 50%;
+    margin: 0;
+  }
+  /* --- aside contactos --- */
+  .asideContactos{
+    width: 90%;
+  }
+  .contactoImg{
+    width: 100%;
+  }
+}
+@media (max-width: 590px){
+  /* ----- Index.html ----- */
+  nav{
+    display: block;
+    background-color: #ffffff;
+  }
+  .letrasnav{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+  }
+  .navegacion{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+  }
+  .segunda{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+  .letrasPrimera h1{
+   font-size: 5px;
+ }
+ .letrasPrimera p{
+  text-align: center;
+  font-size: 1.2rem;
+}
+ .segunda h3{
+   margin-top: 10px;
+   margin-left: 0;
+   font-size: 1.5rem;
+   display: inline-block;
+   text-align: center;
+ }
+ input[type="email"]{
+   padding-right: 1px;
+ }
+ .imgLogo{
+   width: 44%;
+ }
+ /* ----- nosotros.html -------- */
+ .primeraNosotros{
+   width: 50%;
+   margin: 0;
+ }
+ .segundaNosotros{
+   width: 40%;
+ }
+ .imgNosotros{
+   width: 190%;
+ }
+ /* --- Aside que hacemos --- */
+ .aside{
+   width: 80%;
+   margin-right:20px;
+ }
+
+ /* ------ Servicios.html ------ */
+ .servicios{
+   width: 50%;
+   margin: 0;
+ }
+ .segundaServicios{
+   width: 40%;
+ }
+ /* ------- Contactos.html -------- */
+ .formulario{
+   width: 50%;
+   margin: 0;
+ }
+ /* --- aside contactos --- */
+ .asideContactos{
+   width: 90%;
+ }
+ .contactoImg{
+   width: 100%;
+ }
+}
+@media (max-width: 400px){
+  /* ------ Index.html -------- */
+  nav{
+    display: inline-block;
+    background-color: #24282b;
+  }
+  .letrasnav{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+  }
+  .letrasnav a{
+    margin: 0;
+    padding: 0;
+  }
+  .navegacion{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+  }
+  .primera{
+    height: 20rem;
+  }
+  .letrasPrimera{
+    width: 90%;
+  }
+  .letrasPrimera  h1{
+    font-size: 1.8rem;
+  }
+  .letrasPrimera p{
+    font-size: 1rem;
+  }
+  .segunda{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+ .segunda h3{
+   margin-top: 10px;
+   margin-left: 0;
+   font-size: 1.5rem;
+   display: inline-block;
+   text-align: center;
+ }
+ input[type="email"]{
+   padding-right: 1px;
+ }
+ .tercera{
+   display: inline-block;
+ }
+ .logos{
+   width: 100%;
+   text-align: center;
+ }
+ .imgLogo{
+   width: 23%;
+ }
+ /* ----- nosotros.html -------- */
+ .bodyTodos{
+   flex-direction: column;
+   align-items: center ;
+ }
+ .primeraNosotros{
+   width: 90%;
+   margin: 10px;
+ }
+ .segundaNosotros{
+   width: 90%;
+ }
+ .imgNosotros{
+   width: 100%;
+ }
+ /* --- Aside que hacemos --- */
+ .aside{
+   width: 80%;
+   margin-right:20px;
+ }
+
+ /* ------ Servicios.html ------ */
+ .servicios{
+   width: 90%;
+   margin: 0;
+ }
+ .segundaServicios{
+   align-items: center;
+   width: 80%;
+ }
+ /* ------- Contactos.html -------- */
+ .formulario{
+   width: 90%;
+   margin: 0;
+ }
+ form input{
+  width: 88%;
+  padding: 10px;
+  margin-bottom: 15px ;
+}
+form input[type="email"]{
+  width: 88%;
+  padding: 10px;
+}
+textarea{
+  width: 93%;
+  height: 10rem;
+}
+.botonContactos{
+  width: 92%;
+}
+ /* --- aside contactos --- */
+ .asideContactos{
+   width: 90%;
+ }
+ .contactoImg{
+   width: 100%;
+ }
+}
